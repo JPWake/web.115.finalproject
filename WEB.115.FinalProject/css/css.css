@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+p, legend, label, tr, th, #mealTable, h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    padding: 4%;
+}
+
+
+input[type=text],
+input[type=date],
+input[type=email],
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#mealTable, th, td{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+#mealTable{
+    border-radius: 5px;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* css buttons  */
+
+
+#generatePlan, #insertMeal, button{
+    align-items: center;
+    font-weight: bold;
+    background-color: #fffb1b;
+    border-radius: 4px;
+    border-width: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+#generatePlan:hover{
+    background-color: #8d8b0e;
+}
+
+#insertMeal:hover{
+    background-color: #8d8b0e;
+}
